@@ -10,7 +10,7 @@ class GateData():
 
     def gate(self):
     #百度图片是每30张加载一次，下面代码是默认下载90张，如果想下载更多可以修改第7行range函数中第2个参数可以30往上增加
-        for n in range(30,31,30):
+        for n in range(30,91,30):
             data={
             'tn': 'resultjson_com',
             'logid': '11085831421831146380',
